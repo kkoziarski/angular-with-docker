@@ -13,6 +13,7 @@ export class AppLoadService {
     const promise = this.httpClient.get<any>('/assets/env-config.json')
       .toPromise()
       .then(settings => {
+        console.log(settings);
         APP_SETTINGS.ApiHostUrl = settings.API_HOST_URL;
         APP_SETTINGS.EnvName = settings.ENV_NAME;
         APP_SETTINGS.AdalConfig.tenant = settings.AdalConfig.tenant;
