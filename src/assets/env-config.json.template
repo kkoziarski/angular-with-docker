@@ -1,0 +1,8 @@
+{
+  "ENV_NAME": ##ENV_NAME##,
+  "API_HOST_URL": ##API_HOST_URL##,
+  "AdalConfig": {
+    "tenant": ##ADAL_TENANT##,
+    "clientId": ##ADAL_CLIENT_ID##
+  }
+}

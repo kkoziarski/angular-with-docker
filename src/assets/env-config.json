@@ -1,0 +1,8 @@
+{
+  "ENV_NAME": "local",
+  "API_HOST_URL": "//localhost:345678/",
+  "AdalConfig": {
+    "tenant": "xxxxxx.onmicrosoft.com",
+    "clientId": "00000000-0000-0000-0000-000000000000"
+  }
+}
